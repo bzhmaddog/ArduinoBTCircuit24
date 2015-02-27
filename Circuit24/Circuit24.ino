@@ -138,7 +138,7 @@ void loop() {
    count1++;
    count2++;
    
-   if (count1 > 100) {
+   /*if (count1 > 100) {
       count1 = 0;
       analogWrite(TRACK1,0);
    }
@@ -146,7 +146,7 @@ void loop() {
    if (count2 > 100) {
       count2 = 0;
       analogWrite(TRACK2,0);
-   }
+   }*/
    
  
 }
